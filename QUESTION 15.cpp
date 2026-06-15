@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-    float num1,num2;
+    float first_number,second_number;
     cout << " Enter first number: ";
-    cin>> num1;
+    cin>> first_number;
 
     cout<< " Enter second number: ";
-    cin>> num2;
+    cin>> second_number;
 
-    float larger = (num1>num2)?num1:num2;
+    float larger = (first_number>second_number)?first_number:second_number;
 
     cout << " The larger number is: "<<larger<<endl;
 
