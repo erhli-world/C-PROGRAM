@@ -5,13 +5,13 @@ using namespace std;
 int main() {
     int num1, num2, num3;
 
-    cout << "Enter three integer values: ";
+    cout << " Enter three integer values: ";
     cin >> num1 >> num2 >> num3;
 
     if (num1 == num2 && num2 == num3) {
-        cout << "EQUAL. " << endl;
+        cout << " EQUAL. " << endl;
     } else {
-        cout << "NOT EQUAL. " << endl;
+        cout << " NOT EQUAL. " << endl;
     }
 
     return 0;
